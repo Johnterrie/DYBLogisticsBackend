@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is the backend architecture of DYBLogistics, a modern logistics and shipping platform designed to simplify and optimize deliveries for businesses and individuals. Our goal is to provide seamless shipment booking, real-time tracking, and efficient logistics management—all in one place. ✨ Features 📍 Real-time Shipment Tracking",
+  "homepage": "https://github.com/Johnterrie/DYBLogisticsBackend#readme",
+  "bugs": {
+    "url": "https://github.com/Johnterrie/DYBLogisticsBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnterrie/DYBLogisticsBackend.git"
+  },
+  "license": "MIT",
+  "author": "Osumah John Terry",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
