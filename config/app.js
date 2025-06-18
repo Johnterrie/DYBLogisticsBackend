@@ -4,10 +4,8 @@ import { json, urlencoded } from "express";
 import helmet from "helmet";
 import config from "./env/index.js";
 
+import { Helper, genericErrors, constants } from '../app/utils/index.js'
 
-
-
-import { genericErrors, constants } from "../app/utils/index.js"
 
 import favicon from 'serve-favicon'
 import { fileURLToPath } from 'url';
@@ -16,6 +14,11 @@ import morgan from "morgan"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const { notFoundApi } = genericErrors
+const { WELCOME, v1 } = constants
+
+const { errorResponse, successResponse } = Helper
 
 const appConfig = async (app) => {
   // integrate winston logger with morgan
@@ -32,6 +35,7 @@ const appConfig = async (app) => {
   app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')))
   // adds a heartbeat route for the culture
 
+  app.get('/', (req, res) => successResponse(res, { message: WELCOME }))
 
   const port = config.PORT || 3000
 

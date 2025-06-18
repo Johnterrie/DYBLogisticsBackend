@@ -6,7 +6,7 @@ export default {
   FAIL: "fail",
   v1: "/api/v1",
   EMAIL_CONFLICT: "A user with your email already exists",
-  WELCOME: "Thanks for dropping by, you are at Patronize",
+  WELCOME: "Thanks for dropping by, you are at DYBLogistics",
   INVALID_CREDENTIALS: "Incorrect login details",
   INVALID_PERMISSION: "Permission denied. Invalid credentials provided",
   DB_ERROR_STATUS: 'DB_PROCESS_FAILED',

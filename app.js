@@ -10,7 +10,6 @@ global.logger = Logger.createLogger({
 });
 
 
-
 const app = express()
 
 appConfig(app)
