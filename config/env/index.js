@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv/config';
 
 import rootPath from 'app-root-path'
 
@@ -9,7 +9,8 @@ import production from './production.js'
 const {
   DYBLOGISTICS_SECRET: SECRET,
   DYBLOGISTICS_NODE_ENV: NODE_ENV,
-  DYBLOGISTICS_HASH: MY_HASH
+  DYBLOGISTICS_HASH: MY_HASH,
+  MONGO_URI
 } = process.env
 
 const currentEnv = {
@@ -24,5 +25,6 @@ export default {
   rootPath,
   SECRET,
   NODE_ENV,
-  MY_HASH
+  MY_HASH,
+  MONGO_URI
 }

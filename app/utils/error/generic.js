@@ -8,12 +8,14 @@ const {
   INVALID_PERMISSION,
   INVALID_CREDENTIALS,
   ACCESS_REVOKED,
-  FORBIDDEN
+  FORBIDDEN,
+  DB_ERROR
 } = constants
 
 export default {
   serverError: new ApiError({ message: INTERNAL_SERVER_ERROR, status: 500 }),
   notFoundApi: new ApiError({ message: NOT_FOUND_API, status: 404 }),
+  databaseError: new ApiError({ message: DB_ERROR, status: 404 }),
   unAuthorized: new ApiError({ message: INVALID_PERMISSION, status: 403 }),
   accessRevoked: new ApiError({ message: ACCESS_REVOKED, status: 403 }),
   inValidLogin: new ApiError({ message: INVALID_CREDENTIALS, status: 401 }),

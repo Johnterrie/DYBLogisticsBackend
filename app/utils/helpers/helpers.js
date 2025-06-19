@@ -27,7 +27,7 @@ class Helper {
     return uuidV4()
   }
 
-   /**
+  /**
    * It parses a data
    * @static
    * @param {string} data - The data to be parsed
@@ -37,7 +37,8 @@ class Helper {
   static parseData (data) {
     return JSON.parse(data)
   }
- 
+
+
   /**
    * This is used for generating a hash and a salt from a user's password.
    * @static
@@ -73,35 +74,6 @@ class Helper {
    */
   static async validateInput (schema, object) {
     return schema.validateAsync(object)
-  }
-
-  /**
-   * It checks if an array is not empty
-   * @static
-   * @param {Arry} array - the array to be checked
-   * @returns { boolean } - True if validation succeeded, false otherwise
-   */
-  static checkArrayIsNotEmpty (array) {
-    if (array.length === 0) {
-      return null
-    }
-    if (array.length === 1) {
-      return array[0]
-    }
-    return array
-  }
-
-  /**
-   * It checks an empty array
-   * @static
-   * @param {Arry} array - the array to be checked
-   * @returns { boolean } - True if validation succeeded, false otherwise
-   */
-  static checkArrayIsEmpty (array) {
-    if (array.length === 0) {
-      return true
-    }
-    return false
   }
 
   /**
