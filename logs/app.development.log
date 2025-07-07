@@ -203,3 +203,5 @@
 {"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-07-07T11:33:25.585Z"}
 {"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-07-07T11:39:23.783Z"}
 {"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-07-07T11:39:23.792Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 400 - User with this email already exists - /v1/signup - POST - ::1","timestamp":"2025-07-07T12:11:48.674Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [07/Jul/2025:12:11:48 +0000] \"POST /v1/signup HTTP/1.1\" 400 65 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-07-07T12:11:48.680Z"}
