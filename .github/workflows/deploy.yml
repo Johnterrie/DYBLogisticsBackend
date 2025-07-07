@@ -1,0 +1,36 @@
+name: Node.js CI/CD
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🔧 Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # or your preferred version
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🧪 Run tests (if any)
+        run: |
+          if [ -f package.json ] && grep -q "\"test\":" package.json; then
+            npm test
+          else
+            echo "No tests configured."
+          fi
+
+      - name: 🚀 Start app (optional - for dev only)
+        run: |
+          echo "App installed. You can add deployment here or run scripts"
