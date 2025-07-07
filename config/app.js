@@ -10,7 +10,7 @@ import morgan from "morgan"
 import connectDB from "../app/db/setup/dbconnect.js";
 
 
-import apiV1Routes from '../app/routes/v1/auth/index.js'
+import apiV1Routes from '../app/routes/v1/index.js'
 
 
 

@@ -3,25 +3,28 @@ import mongoose from 'mongoose'
 // Define the schema
 const userSchema = new mongoose.Schema(
   {
-    first_name: {
+   first_name: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
+      minLength: [3, "First name should be more than three Characters"]
     },
     last_name: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
+      minLength: [3, "last name should be more than three Characters"]
     },
     email: {
       type: String,
-      required: true,
+      required: [true, "Email is required."],
       unique: true,
-      lowercase: true
+      match: [/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/, "Please enter a valid email address."],
     },
     password: {
       type: String,
-      required: true
+      required: true,
+      minLength: [4, "First name should be more than four Characters"]
     }
   },
   {
