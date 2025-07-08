@@ -3,17 +3,11 @@ import mongoose from 'mongoose'
 // Define the schema
 const userSchema = new mongoose.Schema(
   {
-   first_name: {
+    name: {
       type: String,
       required: true,
       trim: true,
       minLength: [3, "First name should be more than three Characters"]
-    },
-    last_name: {
-      type: String,
-      required: true,
-      trim: true,
-      minLength: [3, "last name should be more than three Characters"]
     },
     email: {
       type: String,
@@ -25,7 +19,19 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
       minLength: [4, "First name should be more than four Characters"]
-    }
+    },
+    phone_number: {
+      type: String,
+      required: true,
+      trim: true,
+      minLength: [3, "First name should be more than three Characters"]
+    },
+    user_type: {
+      type: String,
+      required: true,
+      unique: true,
+      enum : [ "individual", "business" ],
+    },
   },
   {
     timestamps: true
