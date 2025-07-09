@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import contactController from '../../../controllers/contact/index.js'
+import { ContactController } from '../../../controllers/index.js'
 
 const router = Router()
 
-router.post('/contact', contactController.submitContact)
+router.post('/contact', ContactController.submitContact)
 
 export default router

@@ -1,4 +1,4 @@
-import User from '../../models/user.js'
+import { User } from '../../models/index.js'
 import { Helper } from '../../utils/helpers/index.js'
 import constants from '../../utils/constants/index.js'
 

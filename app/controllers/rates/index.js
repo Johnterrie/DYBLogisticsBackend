@@ -1,5 +1,4 @@
-import Shipping from "../../models/shipping.js";
-import Rate from "../../models/rate.js";
+import { Shipping, Rate }from "../../models/index.js";
 
 import { Helper } from "../../utils/index.js";
 import { constants } from "../../utils/index.js";

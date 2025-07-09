@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema(
       enum : [ "individual", "business" ],
     },
     wallet_balance: {
-      type: string
+      type: String
     },
     shipment: {
         type: mongoose.Schema.Types.ObjectId,
