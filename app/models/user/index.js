@@ -32,6 +32,13 @@ const userSchema = new mongoose.Schema(
       unique: true,
       enum : [ "individual", "business" ],
     },
+    wallet_balance: {
+      type: string
+    },
+    shipment: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'shipping',
+    }
   },
   {
     timestamps: true
