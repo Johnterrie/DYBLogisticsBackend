@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // Define the Rate schema
-const senderSchema = new mongoose.Schema(
+const recieverSchema = new mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
@@ -59,5 +59,5 @@ const senderSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Sender = mongoose.model("RateCalculator", senderSchema);
-export default Sender;
+const Calculator = mongoose.model("RateCalculator", recieverSchema);
+export default Calculator;

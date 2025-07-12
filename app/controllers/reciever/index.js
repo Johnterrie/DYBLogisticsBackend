@@ -1,20 +1,20 @@
-import { Calculator } from '../../models/index.js' // Adjust path to match your project
+import Calculator from '../../models/calculator.model.js' // Adjust path if needed
 import { Helper } from '../../utils/index.js'
 
 /**
- * Controller for saving a rate calculator user entry
- * @class CalculatorController
+ * Controller for saving receiver details
+ * @class ReceiverController
  */
-class SenderController {
+class ReceiverController {
   /**
-   * Saves a new rate calculation entry with user info
+   * Save receiver details to the database
    * @param {Request} req
    * @param {Response} res
    */
-  static async saveSenderDetails(req, res) {
+  static async saveReceiverDetails(req, res) {
     try {
       const {
-        user, // or from req.user.id
+        user,
         first_name,
         lastt_name,
         address_line_1,
@@ -28,13 +28,12 @@ class SenderController {
         alternate_phone
       } = req.body
 
-      // Validate essential fields (basic example)
       const requiredFields = [
         'user', 'first_name', 'lastt_name', 'address_line_1', 'address_line_2',
         'country', 'state', 'city', 'postal_code', 'phone', 'email', 'alternate_phone'
       ]
 
-      for (let field of requiredFields) {
+      for (const field of requiredFields) {
         if (!req.body[field]) {
           return Helper.errorResponse(req, res, {
             message: `${field.replaceAll('_', ' ')} is required`,
@@ -43,7 +42,7 @@ class SenderController {
         }
       }
 
-      const rateEntry = await Calculator.create({
+      const receiverEntry = await Calculator.create({
         user,
         first_name,
         lastt_name,
@@ -59,12 +58,12 @@ class SenderController {
       })
 
       return Helper.successResponse(res, {
-        message: 'User rate calculation details saved successfully',
-        data: rateEntry
+        message: 'Receiver details saved successfully',
+        data: receiverEntry
       })
     } catch (err) {
       return Helper.errorResponse(req, res, {
-        message: 'Failed to save user rate data',
+        message: 'Failed to save receiver details',
         status: 500,
         errors: err.message
       })
@@ -72,4 +71,4 @@ class SenderController {
   }
 }
 
-export default SenderController
+export default ReceiverController

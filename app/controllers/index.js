@@ -4,6 +4,7 @@ import ContactController from "./contact/index.js";
 import CalculatorController from "./calculator/index.js";
 import RateController from "./rates/index.js";
 import SenderController from "./sender/index.js";
+import RecieverController from "./reciever/index.js";
 
 export {
   UserController,
@@ -11,5 +12,6 @@ export {
   ContactController,
   CalculatorController,
   RateController,
-  SenderController
+  SenderController,
+  RecieverController
 };
