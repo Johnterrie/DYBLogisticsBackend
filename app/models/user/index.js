@@ -26,14 +26,15 @@ const userSchema = new mongoose.Schema(
       trim: true,
       minLength: [3, "First name should be more than three Characters"]
     },
-    user_type: {
+    userType: {
       type: String,
       required: true,
       unique: true,
       enum : [ "individual", "business" ],
     },
-    wallet_balance: {
-      type: String
+    walletBalance: {
+      type: Number,
+      default: 0
     },
     shipment: {
         type: mongoose.Schema.Types.ObjectId,

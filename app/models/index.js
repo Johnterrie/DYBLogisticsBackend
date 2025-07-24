@@ -6,5 +6,6 @@ import Dashboard from "./dashboard/index.js"
 import Rate from "./rate/index.js"
 import Calculator from "./calculator/index.js"
 import Reciever from "./reciever/index.js"
+import AddItems from "./add_items/index.js";
 
-export { User, Contact, Shipping, Tracking, Dashboard, Rate, Calculator, Reciever}
+export { User, Contact, Shipping, Tracking, Dashboard, Rate, Calculator, Reciever, AddItems}
