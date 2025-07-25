@@ -11,7 +11,6 @@ const shippingSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    
   },
   {
     timestamps: true
