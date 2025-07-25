@@ -1,11 +1,8 @@
 import User from "./user/index.js"
-import Contact from "./contact/index.js";
+import Contact from "./support_contact/index.js";
 import Shipping from "./shipping/index.js"
-import Tracking from "./tracking/index.js"
-import Dashboard from "./dashboard/index.js"
-import Rate from "./rate/index.js"
-import Calculator from "./calculator/index.js"
-import Reciever from "./reciever/index.js"
-import AddItems from "./add_items/index.js";
+import Rate from "./client_rate/index.js"
+import Wallet from "./wallet/index.js"
 
-export { User, Contact, Shipping, Tracking, Dashboard, Rate, Calculator, Reciever, AddItems}
+
+export { User, Contact, Shipping, Rate, Wallet}

@@ -3,7 +3,7 @@ import { UserController, AuthController } from '../../../controllers/index.js'
 
 
 const { createUser } = UserController
-const { signIn } = AuthController
+const { signIn, logout } = AuthController
 
 const router = Router()
 
@@ -15,6 +15,10 @@ router.post(
 router.post(
   '/signin',
   signIn
+)
+
+router.post(
+  "/logout", logout
 )
 
 

@@ -2,23 +2,16 @@ import mongoose from 'mongoose'
 
 const shippingSchema = new mongoose.Schema(
   {
-    destination: {
-      type: String,
-      required: true,
-      trim: true,
-      minLength: [3, "Destination should be more than three characters"]
-    },
-    rate: {
+    userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'Rate',
-      required: true,
-      enum: ["Domestic", "Express"]
+      ref: "User",
     },
-    allServices: {
+    trackingNumber: {
       type: String,
-      required: [true, "Service is required."],
+      required: true,
       unique: true,
     },
+    
   },
   {
     timestamps: true

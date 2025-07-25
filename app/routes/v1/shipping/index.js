@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import RateController from '../../../controllers/rates/index.js'
+import RateController from '../../../controllers/client_rates/index.js'
 
 const router = Router()
 
