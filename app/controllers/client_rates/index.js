@@ -1,14 +1,14 @@
-import { Shipping, Rate }from "../../models/index.js";
+import { Shipping, Rate } from "../../models/index.js";
 
 import { Helper } from "../../utils/index.js";
 import { constants } from "../../utils/index.js";
 
-const { 
-  RATE_NAME_ERROR, 
-  RATE_NAME_SUCCESS, 
-  RATE_NAME_FAILURE, 
-  RATE_NAME_CREATION_FAILURE, 
-  RATE_NAME_UPDATE_ERROR 
+const {
+  RATE_NAME_ERROR,
+  RATE_NAME_SUCCESS,
+  RATE_NAME_FAILURE,
+  RATE_NAME_CREATION_FAILURE,
+  RATE_NAME_UPDATE_ERROR,
 } = constants;
 
 /**
@@ -77,10 +77,8 @@ class RateController {
 
       return Helper.successResponse(res, {
         message: `${name} rate updated successfully`,
-        data: {
-          price: `₦${Number(rate.price).toLocaleString()}`,
-          duration: rate.duration,
-        },
+        price: `₦${Number(rate.price).toLocaleString()}`,
+        duration: rate.duration,
       });
     } catch (err) {
       return Helper.errorResponse(req, res, {
@@ -102,7 +100,6 @@ class RateController {
         message: `${name} service created successfully`,
         rate: newRate,
       });
-
     } catch (err) {
       return Helper.errorResponse(req, res, {
         message: RATE_NAME_CREATION_FAILURE,
