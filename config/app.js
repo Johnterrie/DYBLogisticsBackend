@@ -29,7 +29,11 @@ const appConfig = async (app) => {
 
   app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: [
+        "http://localhost:3000", // Local dev
+        "https://dyblogistics-frontend.onrender.com", // staging
+      ],
+      methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       credentials: true,
     })
   );
