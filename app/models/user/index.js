@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema(
       required: true,
       minLength: [4, "Password should be more than four characters"],
     },
-    phone_number: {
+    phoneNumber: {
       type: String,
       required: true,
       trim: true,
