@@ -1,20 +1,20 @@
-import { v4 as uuidV4 } from 'uuid'
-import bcrypt from 'bcrypt'
-import jwt from 'jsonwebtoken'
-import config from '../../../config/index.js'
-import genericError from '../error/generic.js'
-import DBError from '../error/db.error.js'
-import constants from '../constants/index.js'
+import { v4 as uuidV4 } from "uuid";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import config from "../../../config/index.js";
+import genericError from "../error/generic.js";
+import DBError from "../error/db.error.js";
+import constants from "../constants/index.js";
+import { User } from "../../models/index.js";
 
-const { FAIL, SUCCESS, SUCCESS_RESPONSE } = constants
-const { serverError } = genericError
-const { SECRET } = config
+const { FAIL, SUCCESS, SUCCESS_RESPONSE, AUTH_ERROR } = constants;
+const { serverError } = genericError;
+const { SECRET } = config;
 
 /**
  * Contains Helper methods
  * @class Helper
  */
-
 class Helper {
   /**
    * It generates a uniqueId.
@@ -22,9 +22,8 @@ class Helper {
    * @memberof Helper
    * @returns {String} - A unique string.
    */
-
-  static generateId () {
-    return uuidV4()
+  static generateId() {
+    return uuidV4();
   }
 
   /**
@@ -34,10 +33,9 @@ class Helper {
    * @memberof Helper
    * @returns {any} - The parsed data.
    */
-  static parseData (data) {
-    return JSON.parse(data)
+  static parseData(data) {
+    return JSON.parse(data);
   }
-
 
   /**
    * This is used for generating a hash and a salt from a user's password.
@@ -46,9 +44,9 @@ class Helper {
    * @memberof Helper
    * @returns {string} - An string containing the hash and salt of a password.
    */
-  static hashPassword (password) {
-    const salt = bcrypt.genSaltSync(10)
-    return bcrypt.hashSync(password, salt)
+  static hashPassword(password) {
+    const salt = bcrypt.genSaltSync(10);
+    return bcrypt.hashSync(password, salt);
   }
 
   /**
@@ -60,8 +58,8 @@ class Helper {
    * @memberof Helper
    * @returns {boolean} - returns a true or false, depending on the outcome of the comparison.
    */
-  static compareHash (plainpassword, hashedpassword) {
-    return bcrypt.compareSync(plainpassword, hashedpassword)
+  static compareHash(plainpassword, hashedpassword) {
+    return bcrypt.compareSync(plainpassword, hashedpassword);
   }
 
   /**
@@ -72,20 +70,20 @@ class Helper {
    * @memberof Helper
    * @returns { boolean } - True if validation succeeded, false otherwise
    */
-  static async validateInput (schema, object) {
-    return schema.validateAsync(object)
+  static async validateInput(schema, object) {
+    return schema.validateAsync(object);
   }
 
   /**
    * Create a signed json web token
    * @param {string | number | Buffer | object} payload - Payload to sign
    * @param {string | number} expiresIn - Expressed in seconds or a string describing a
-   * time span. Eg: 60, "2 days", "10h", "7d". Default specified is 2 hours.
+   * time span. Eg: 60, "2 days", "10h", "7d". Default specified is 2 days.
    * @memberof Helper
-   * @returns {string} -JWT token
+   * @returns {string} - JWT token
    */
-  static generateToken (payload, expiresIn = '2d') {
-    return jwt.sign(payload, SECRET, { expiresIn })
+  static generateToken(payload, expiresIn = "2d") {
+    return jwt.sign(payload, SECRET, { expiresIn });
   }
 
   /**
@@ -93,11 +91,10 @@ class Helper {
    * @static
    * @param {string} token - JWT Token
    * @memberof Helper
-   * @returns {string | number | Buffer | object } - Decoded JWT payload if
-   * token is valid or an error message if otherwise.
+   * @returns {object } - Decoded JWT payload if token is valid
    */
-  static verifyToken (token) {
-    return jwt.verify(token, SECRET)
+  static verifyToken(token) {
+    return jwt.verify(token, SECRET);
   }
 
   /**
@@ -106,21 +103,19 @@ class Helper {
    * @memberof Helper
    * @returns {object} - A new object containing essential user properties and jwt token.
    */
-  static addTokenToData (user) {
-    const { id, first_name, last_name, email } = user
+  static addTokenToData(user) {
+    const { _id, name, email } = user;
     const token = Helper.generateToken({
-      id,
-      first_name,
-      last_name,
-      email
-    })
-    return {
-      id,
-      first_name,
-      last_name,
+      id: _id,
+      name,
       email,
-      token
-    }
+    });
+    return {
+      id: _id,
+      name,
+      email,
+      token,
+    };
   }
 
   /**
@@ -128,21 +123,15 @@ class Helper {
    * @static
    * @param {Response} res - Response object.
    * @param {object} options - An object containing response properties.
-   * @param {object} options.data - The payload.
-   * @param {string} options.message -  HTTP Status code.
-   * @param {number} options.code -  HTTP Status code.
-   * @memberof Helpers
+   * @memberof Helper
    * @returns {JSON} - A JSON success response.
    */
-  static successResponse (
-    res,
-    { data, message = SUCCESS_RESPONSE, code = 200 }
-  ) {
+  static successResponse(res, { data, message = SUCCESS_RESPONSE, code = 200 }) {
     return res.status(code).json({
       status: SUCCESS,
       message,
-      data
-    })
+      data,
+    });
   }
 
   /**
@@ -151,47 +140,43 @@ class Helper {
    * @param {Request} req - Request object.
    * @param {Response} res - Response object.
    * @param {object} error - The error object.
-   * @param {number} error.status -  HTTP Status code, default is 500.
-   * @param {string} error.message -  Error message.
-   * @param {object|array} error.errors -  A collection of  error message.
-   * @memberof Helpers
+   * @memberof Helper
    * @returns {JSON} - A JSON failure response.
    */
-  static errorResponse (req, res, error) {
-    const aggregateError = { ...serverError, ...error }
-    Helper.apiErrLogMessager(aggregateError, req)
-    return res.status(aggregateError.status).json({
+  static errorResponse(req, res, error) {
+    const aggregateError = { ...serverError, ...error };
+    Helper.apiErrLogMessager(aggregateError, req);
+    return res.status(aggregateError.status || 500).json({
       status: FAIL,
       message: aggregateError.message,
-      errors: aggregateError.errors
-    })
+      errors: aggregateError.errors,
+    });
   }
 
   /**
    * Creates DB Error object and logs it with respective error message and status.
    * @static
-   * @param { String | Object } data - The data.
+   * @param {object} param0 - The data.
    * @memberof Helper
-   * @returns { Object } - It returns an Error Object.
+   * @returns {object} - It returns an Error Object.
    */
-  static makeError ({ error, status }) {
+  static makeError({ error, status }) {
     const dbError = new DBError({
       status,
-      message: error.message
-    })
-    Helper.moduleErrLogMessager(dbError)
-    return dbError
+      message: error.message,
+    });
+    Helper.moduleErrLogMessager(dbError);
+    return dbError;
   }
 
   /**
    * Generates log for module errors.
    * @static
    * @param {object} error - The module error object.
-   * @memberof Helpers
-   * @returns { Null } -  It returns null.
+   * @memberof Helper
    */
-  static moduleErrLogMessager (error) {
-    return logger.error(`${error.status} - ${error.name} - ${error.message}`)
+  static moduleErrLogMessager(error) {
+    return logger.error(`${error.status} - ${error.name} - ${error.message}`);
   }
 
   /**
@@ -200,14 +185,52 @@ class Helper {
    * @private
    * @param {object} error - The API error object.
    * @param {Request} req - Request object.
-   * @memberof Helpers
-   * @returns {String} - It returns null.
+   * @memberof Helper
    */
-  static apiErrLogMessager (error, req) {
+  static apiErrLogMessager(error, req) {
     logger.error(
       `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`
-    )
+    );
+  }
+
+  /**
+   * Middleware to authenticate requests
+   * @static
+   * @param {Request} req - Request object
+   * @param {Response} res - Response object
+   * @param {Function} next - Next middleware function
+   */
+  static async authMiddleware(req, res, next) {
+    try {
+      const authHeader = req.headers.authorization;
+      if (!authHeader || !authHeader.startsWith("Bearer ")) {
+        return Helper.errorResponse(req, res, {
+          message: AUTH_ERROR || "Authorization token missing",
+          status: 401,
+        });
+      }
+
+      const token = authHeader.split(" ")[1];
+      const decoded = Helper.verifyToken(token);
+
+      const user = await User.findById(decoded.id);
+      if (!user) {
+        return Helper.errorResponse(req, res, {
+          message: "User not found",
+          status: 404,
+        });
+      }
+
+      req.user = user; // attach user to request
+      next();
+    } catch (err) {
+      return Helper.errorResponse(req, res, {
+        message: "Invalid or expired token",
+        status: 401,
+        errors: err.message,
+      });
+    }
   }
 }
 
-export default Helper
+export default Helper;

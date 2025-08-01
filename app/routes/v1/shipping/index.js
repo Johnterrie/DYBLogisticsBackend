@@ -1,10 +1,22 @@
-import { Router } from 'express'
-import RateController from '../../../controllers/client_rates/index.js'
+import express from "express";
+import { ShippingController } from "../../../controllers/index.js";
+import { Helper } from "../../../utils/helpers/index.js";
 
-const router = Router()
+import upload from "../../../middlewares/multer.js"; // Multer for file upload
 
-router.get('/rates', RateController.getRates)
-router.put('/rates/update', RateController.updateRate)
-router.post('/rates/add', RateController.createRate)
+const router = express.Router();
 
-export default router
+router.post(
+  "/createshipment",
+  Helper.authMiddleware,
+  upload.single("proofOfWeight"),
+  ShippingController.createShipment
+);
+
+router.get(
+  "/my-shipments",
+  Helper.authMiddleware,
+  ShippingController.getUserShipments
+);
+
+export default router;

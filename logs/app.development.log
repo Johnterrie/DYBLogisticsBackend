@@ -10,3 +10,158 @@
 {"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-07-28T17:34:05.791Z"}
 {"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-07-29T02:53:02.181Z"}
 {"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-07-29T02:53:02.191Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:37:47.927Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:37:47.945Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:38:37.121Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:38:37.142Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:38:48.778Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:38:48.795Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:45:46.936Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:45:46.947Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:46:43.854Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:46:43.864Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:47:06.453Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:47:06.464Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:47:19.178Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:47:19.199Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:47:40.152Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:47:40.163Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:48:36.457Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:48:36.466Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:50:13.411Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:50:13.419Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:50:41.384Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:50:41.394Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:51:23.854Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:51:23.880Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:52:43.741Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:52:43.749Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:54:32.642Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:54:32.663Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:55:15.203Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:55:15.218Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:57:40.118Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:57:40.140Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:58:51.357Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:58:51.376Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T00:59:55.357Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T00:59:55.370Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:02:12.239Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:02:12.250Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:02:14 +0000] \"POST /v1/dashboard HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:02:14.594Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:02:23 +0000] \"GET /v1/dashboard HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:02:23.838Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:03:45.690Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:03:45.702Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:04:21.574Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:04:21.588Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:04:45.739Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:04:45.748Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:10:31.168Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:10:31.190Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:12:29.239Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:12:29.251Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:12:36.590Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:12:36.608Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:13:12.390Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:13:12.402Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:16:10.785Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:16:10.804Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:19:18.274Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:19:18.284Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T01:44:14.322Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T01:44:14.347Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:51:04 +0000] \"GET /v1/createshipment HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:51:04.393Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T01:51:30.327Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:51:30 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:51:30.332Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T01:53:54.892Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:53:54 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:53:54.894Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T01:58:18.893Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:58:18 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:58:18.895Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T01:59:20.293Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:59:20 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 223 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:59:20.298Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T01:59:42.668Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:01:59:42 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T01:59:42.673Z"}
+{"label":"DYBLogistics_App","level":"error","message":"MulterError - 500 - Unexpected field - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:00:21.180Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:00:21 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 46 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:00:21.183Z"}
+{"label":"DYBLogistics_App","level":"error","message":"MulterError - 500 - Unexpected field - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:00:29.415Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:00:29 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 46 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:00:29.418Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:01:00.322Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:01:00 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:01:00.325Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:02:23.329Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:02:23.361Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:04:42.835Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:04:42.858Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:04:58.291Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:04:58.300Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:05:00.283Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:05:00 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:05:00.295Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:05:02.763Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:05:02 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:05:02.767Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:05:04.797Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:05:04 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:05:04.802Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:05:20.497Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:05:20 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:05:20.504Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:07:44.039Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:07:44.048Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:08:05.779Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:08:05 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 223 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:08:05.786Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:10:04.144Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:10:04.164Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:10:17.236Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:10:17.260Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:10:22.967Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:10:22 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 223 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:10:22.974Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:10:54.919Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:10:54.933Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:11:02.408Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:11:02 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 148 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:11:02.428Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:12:04.137Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:12:04.157Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:12:08 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1183 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:12:08.742Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:14:02.589Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:14:02 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:14:02.593Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:21:04.486Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:21:04 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:21:04.490Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:21:15.178Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:21:15 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:21:15.180Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:22:05.771Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:22:05 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:22:05.778Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:24:05.936Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:24:05.959Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:25:16.954Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:25:16.966Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:25:28.802Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:25:28 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:25:28.811Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:26:22.023Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:26:22 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:26:22.030Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:26:57 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:26:57.643Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:27:07.996Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:27:08 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:27:08.002Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:30:32.881Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:30:32.921Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:30:45.946Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:30:45 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:30:45.956Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:32:43.157Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:32:43.164Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:32:47.183Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:32:47 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:32:47.199Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:32:49.595Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:32:49 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:32:49.598Z"}
+{"label":"DYBLogistics_App","level":"error","message":"ApiError - 500 - Failure in creating shipping - /v1/createshipment - POST - ::1","timestamp":"2025-08-01T02:32:52.913Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:32:52 +0000] \"POST /v1/createshipment HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:32:52.916Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:33:36 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:33:36.067Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:40:18.430Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:40:18.447Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:40:38 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:40:38.989Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:40:47 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:40:47.699Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:40:52 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:40:52.557Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:40:55 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:40:55.319Z"}
+{"label":"DYBLogistics_App","level":"info","message":"::1 - - [01/Aug/2025:02:40:57 +0000] \"POST /v1/createshipment HTTP/1.1\" 200 1189 \"-\" \"PostmanRuntime/7.44.1\"\n","timestamp":"2025-08-01T02:40:57.832Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:41:08.926Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:41:08.936Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:53:59.311Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:53:59.327Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:54:48.241Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:54:48.251Z"}
+{"label":"DYBLogistics_App","level":"info","message":"Connected to Database Succssfully","timestamp":"2025-08-01T02:56:45.412Z"}
+{"label":"DYBLogistics_App","level":"info","message":"DYBLogistics is listening on PORT 5000","timestamp":"2025-08-01T02:56:45.426Z"}

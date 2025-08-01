@@ -3,16 +3,23 @@ import mongoose from "mongoose";
 // Define the Rate schema
 const rateSchema = new mongoose.Schema(
   {
-    name: {
+    domesticDuration: {
       type: String,
       required: true,
-      unique: true,
-      enum: ["Domestics", "Express"],
     },
-    price: {
+    domesticPrice: {
       type: Number,
       required: true,
     },
+    expressDuration: {
+      type: String,
+      required: true,
+    },
+    expressPrice: {
+      type: Number,
+      required: true,
+    },
+    
     duration: String,
    },
   { timestamps: true }
