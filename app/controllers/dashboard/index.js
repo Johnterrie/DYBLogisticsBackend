@@ -41,14 +41,13 @@ class DashboardController {
       // Respond with dashboard data
       return Helper.successResponse(res, {
         message: DASHBOARD_SUCCESS,
-        data: {
-          name: user.name,
-          userType: user.userType,
-          totalShipping,
-          shippingInTransit,
-          shippingPending,
-          shippingCancelled
-        }
+        name: user.name,
+        userType: user.userType,
+        totalShipping,
+        shippingInTransit,
+        shippingPending,
+        shippingCancelled
+        
       });
     } catch (err) {
       return Helper.errorResponse(req, res, {
